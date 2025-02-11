@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI French Poem Generator</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the French poem"
@@ -25,10 +26,9 @@
           <input type="submit" value="Submit" class="submit-button"/>
         </form>
 
-        <div class="poem">
+        <div class="poem" id="poem">
           The poem will go here
-          <br />
-          And here
+
         </div>
       </main>
 
