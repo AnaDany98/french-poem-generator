@@ -15,23 +15,22 @@
       </header>
 
       <main>
-        <form action="" id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the French poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" value="Submit" class="submit-button"/>
-        </form>
-
-        <div class="poem" id="poem">
-         
-
+        <div class="form-container">
+          <form action="" id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a French"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris or Cheese...</div>
         </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
